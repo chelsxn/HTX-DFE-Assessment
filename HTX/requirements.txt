@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+SQLAlchemy
+pillow
+transformers
+torch
+python-multipart
+#pytest
