@@ -23,7 +23,7 @@ HTX-DFE-Assessment/
 │   ├── services.py         # Image processing, AI analysis, etc.
 │   ├── database.py         # Database connection.
 ├── tests/
-│   ├── test_app.py         # 3 tests (invalid file, valid jpeg, valid png, producing error, 200 and 200 respectively to pass the test).
+│   ├── test_app.py         # 3 tests (invalid txt file, valid jpeg, valid png, producing error, 200 and 200 respectively to pass the test).
 ├── requirements.txt        # Required dependencies to install.
 ├── processing_log.txt      # Log file to log success and failures, created when run.sh is ran.
 ├── images.db               # Database, created when run.sh is ran.
