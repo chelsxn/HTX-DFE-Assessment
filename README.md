@@ -17,11 +17,13 @@ The Image Processing API is designed to:
 ```plaintext
 HTX-DFE-Assessment/
 ├── app/
+│   ├── __init__.py           
 │   ├── main.py             # Main python file.
 │   ├── models.py           # Database or data model definitions.
 │   ├── services.py         # Image processing, AI analysis, etc.
 │   ├── database.py         # Database connection.
-│   ├── schemas.py          # Pydantic schemas for request/response.
+├── tests/
+│   ├── test_app.py         # 3 tests (invalid file, valid jpeg, valid png, producing error, 200 and 200 respectively to pass the test).
 ├── requirements.txt        # Required dependencies to install.
 ├── processing_log.txt      # Log file to log success and failures, created when run.sh is ran.
 ├── images.db               # Database, created when run.sh is ran.
