@@ -148,6 +148,19 @@ Returns processing statistics including total requests, success count, failure c
 **Response Example (Web UI):**
 <img width="1371" alt="image" src="https://github.com/user-attachments/assets/283f05a6-9b2a-4921-ad36-282bf1f0a184" />
 
+## Accessing database through sqlite3
+To access the database:
+   ```bash
+   sqlite3 images.db 
+   ```
+![image](https://github.com/user-attachments/assets/c7a3f712-c221-4237-9519-efa03ac86207)
+
+To view data in the database:
+   ```bash
+   SELECT * FROM images;
+   ```
+![image](https://github.com/user-attachments/assets/8d6a55b1-7c83-42a5-942a-5186e7af5b2d)
+
 ## Testing:
 Ensure that you are in HTX-DFE-Assessment Root folder
    ```bash
