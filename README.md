@@ -8,7 +8,7 @@ Built using
 
 ## Project Struture:
 ```plaintext
-image-processing-api/
+HTX-DFE-Assessment/
 ├── app/
 │   ├── main.py             # Main python file
 │   ├── models.py           # Database or data model definitions
