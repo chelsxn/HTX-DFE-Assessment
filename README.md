@@ -40,7 +40,7 @@ HTX-DFE-Assessment/
 - SQLAlchemy – ORM for database interactions
 - Pillow – Image processing and EXIF extraction
 - Transformers – Hugging Face library for AI captioning
-- Torch - underlying deep learning framework to run the Hugging Face model
+- Torch - Underlying deep learning framework to run the Hugging Face model
 - Uvicorn – ASGI server
 ### For Testing
 - pytest
