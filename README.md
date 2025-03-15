@@ -42,11 +42,11 @@ HTX-DFE-Assessment/
 
 ## Setup Instructions
 
-1. **Clone the Repository:**
+1. **Optional Clone the Repository or just download this file:**
 
    ```bash
    git clone <your-repo-url>
-   cd image-processing-api
+   cd HTX-DFE-Assessment
    ```
 
 2. **Create and Activate a Virtual Environment:**
@@ -147,8 +147,20 @@ Returns processing statistics including total requests, success count, failure c
 <img width="1371" alt="image" src="https://github.com/user-attachments/assets/283f05a6-9b2a-4921-ad36-282bf1f0a184" />
 
 ## Testing:
-### Uploading a file that is not png or jpg will result in a failure:
+Ensure that you are in HTX-DFE-Assessment Root folder
+   ```bash
+   python3 -m pytest -v -s
 
+   The following test will yield 3 pass test:
+   1. An invalid txt file is passed, it will return and error and pass the test.
+   2. A valid JPEG file is passed, it will return 200 and pass the test.
+   3. A valid PNG file is passed, it will return 200 and pass the test.
+   ```
+**Response Example:** <br>
+<img width="371" alt="image" src="https://github.com/user-attachments/assets/b23eb6cf-14fd-4bf1-b873-41e88e536f8e" />
+
+### Uploading a file that is not png or jpg will result in a failure:
+**Response Example (Web UI):**
 <img width="1370" alt="image" src="https://github.com/user-attachments/assets/5ffaac0d-1563-43fb-ad48-1386092f2009" />
 
 
